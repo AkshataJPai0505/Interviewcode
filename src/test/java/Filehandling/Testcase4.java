@@ -1,6 +1,8 @@
 package Filehandling;
 
 import java.io.File;
+import java.util.Arrays;
+import java.util.List;
 
 public class Testcase4 {
 
@@ -8,6 +10,7 @@ public class Testcase4 {
 	{
 		File f =new File("C:\\Users\\HP\\Desktop\\Credentials");
 		String a[]=f.list();
+		List<String> filelist=Arrays.asList(a);
 		
 		System.out.println("Total no of files Present are "+a.length);
 		
@@ -15,7 +18,8 @@ public class Testcase4 {
 		{
 			System.out.println(a[i]);
 			
-		}
+			}
+		
 		
 				
 

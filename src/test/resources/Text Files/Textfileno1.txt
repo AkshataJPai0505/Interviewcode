@@ -1,0 +1,6 @@
+My name is Akshata
+My qualification is Bachelor of Engineering
+I work for HCLTech.
+I work in Bangalore
+My native is Mangalore
+My technology is Java and Selenium
